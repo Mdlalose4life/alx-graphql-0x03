@@ -2,6 +2,7 @@ import { useQuery } from "@apollo/client"
 import { EpisodeProps } from "@/interfaces"
 import EpisodeCard from "@/components/common/EpisodeCard"
 import { useEffect, useState } from "react"
+import { GET_EPISODES } from "@/graphql/queries"
 
 
 
